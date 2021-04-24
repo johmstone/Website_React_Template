@@ -5,6 +5,8 @@ import { Navbar } from './component/navbar';
 import { Footer } from './component/footer';
 
 import { Home } from './views/home';
+import { Login } from './views/login';
+import { Register } from './views/register';
 import injectContext from './store/appContext';
 
 const Layout = () => {
@@ -21,10 +23,13 @@ const Layout = () => {
 						<Route exact path="/">
 							<Home />
 						</Route>
-						{/* <Route exact path="/demo">
-							<Demo />
+						<Route exact path="/Login">
+							<Login />
 						</Route>
-						<Route exact path="/single/:theid">
+						<Route exact path="/Register">
+							<Register />
+						</Route>
+						{/*<Route exact path="/single/:theid">
 							<Single />
 						</Route> */}
 						<Route>

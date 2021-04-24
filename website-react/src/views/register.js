@@ -2,12 +2,12 @@
 import React from "react";
 
 
-export const Home = () => {
+export const Register = () => {
 	
 	return (
 		<section className="container">
 			<div className="text-center">
-				<h1>Home Page</h1>
+				<h1>Register Page</h1>
 
 			</div>
 		</section>
